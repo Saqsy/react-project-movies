@@ -1,17 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<App/>,document.getElementById('root'));
+
+// Here is your key: 4db29850
+
+// Please append it to all of your API requests,
+
+// OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=4db29850
+
+// Click the following URL to activate your key: http://www.omdbapi.com/apikey.aspx?VERIFYKEY=d8bd5006-f53c-49b4-bda7-eab2aa22019d
+// If you did not make this request, please disregard this email.
+
+
